@@ -1,0 +1,186 @@
+\chapter{Spazi vettoriali a dimensione infinita}
+
+
+\section{Introduzione agli spazi infinito-dimensionali}
+
+Provando a risolvere equazioni differenziali alle derivate parziali, risulta evidente la necessità di introdurre spazi infinito-dimensionali, avendo queste soluzioni periodiche ad esempio.
+
+Prenderemo ora in considerazione il caso di onde stazionarie. Sia $u$ lo spostamento della corda dalla posizione di equilibrio al tempo $t$, posizione in cui essa è adagiata sull'asse $x$. Si può dimostrare che $u(x,t)$ segue \textit{l'equazione di D'Alembert}, la quale è:
+\begin{equation}
+    \label{eq:Alembert}
+    \frac{\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partial^2 u}{t^2} = 0
+\end{equation}
+Dove $v$ è una quantità fisica dalle dimensioni di una velocità, al suo interno si trovano le caratteristiche della corda, come ad esempio la sua tensione, le quali la quantificano e definiscono. Questa equazione, famosa nella fisica matematica, compare anche in fisica due nelle equazioni di Maxwell, la quale metteremo ora a sistema con delle condizioni al contorno dovute alla struttura dell'esempio preso. Avendo estremi fissi e condizioni di forma iniziale:
+\begin{equation*}
+    \begin{cases}
+        \frac{\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partial^2 u}{t^2} = 0 \\
+        u(0,t) = u(L,t) = 0 \\
+        u(x,0) = f(x) \\
+        \frac{\partial u(x,0)}{\partial t} = f'(x)
+    \end{cases}
+\end{equation*}
+La tecnica più efficace per risolvere questa equazione alle derivate parziali è quella della soluzione a variabili separate:
+\begin{equation*}
+    u(x,t) = X(x)T(t)
+\end{equation*}
+Quello che si ottiene sostituendo è:
+\begin{equation*}
+    X''T-\frac{1}{v^2}XT'' \longrightarrow
+    \frac{X''}{X} = \frac{1}{v^2} \frac{T''}{T}
+\end{equation*}
+Avendo separato i membri nelle due uniche variabili indipendenti, l'unico modo perchè questa equazione si verifichi è che entrambi i membri siano uguali ad una costante, essendo appunto due membri dipendenti a uno a uno da variabili indipendenti l'una dall'altra:
+\begin{equation*}
+    \frac{X''}{X} = C \quad \frac{1}{v^2} \frac{T''}{T} = C
+\end{equation*}
+Prendiamo ora la prima $X''=CX$ che corrisponde ad un oscillatore armonico, la cui soluzione sarà una combinazione lineare di esponenziali:
+\begin{equation*}
+    X = A e^{\sqrt{C}x} + B e^{-\sqrt{C}x} \qquad A, \, B \in \mathbb{C}
+\end{equation*}
+Dove entrambi gli esponenziali a secondo membro sono soluzione, ma lo è anche la loro combinazione lineare essendo equazioni alle derivate parziali lineari. Per trovare il valore di $C$ devo imporre le condizioni al contorno prima anticipate (estremi fissi):
+\begin{equation*}
+    X(0) = X(L) = 0 \longrightarrow
+    \begin{cases}
+        A+B=0 \\
+        A e^{\sqrt{C}L} + B e^{-\sqrt{C}L} = 0
+    \end{cases}
+\end{equation*}
+Da cui si trova evidentemente che $A=-B$, che sotituendo nella seconda del sistema:
+\begin{equation*}
+    e^{\sqrt{C}L} = e^{-\sqrt{C}L} \Longrightarrow
+    e^{2\sqrt{C}L} = 1 = e^{2\pi in} \qquad
+    n\in\mathbb{N}\setminus {0}
+\end{equation*}
+Da cui evidentemente l'argomento sarà uguale:
+\begin{equation*}
+    \sqrt{C}L = \pi in \longrightarrow
+    C = - \frac{\pi^2n^2}{L^2}
+\end{equation*}
+Vediamo che abbiamo infiniti valori possibili per $C$, dunque infinite soluzioni dell'equazione differenziale. Apriamo una possibile nuova interpretazione in base a quanto visto nel capitolo precedente, interpreteando $X''=CX$ come un operatore lineare alla derivata seconda, il quale ha inoltre una struttura simile all'equazione agli autovalori, dove il vettore è la funzione $X(x)$ e l'operatore la derivata seconda $\frac{\partial^2}{\partial x^2}$. In tal senso ho infiniti autovalori, conseguentemente infiniti autovettori, ossia autofunzioni. Ci aspettiamo per analogia che tali autovettori generino spazi vettoriali a dimensione infinita dei quali costituiranno una base. Ma cerchiamo ora la forma di tali vettori, definiamo per praticità i numeri d'onda $k_n$ come:
+\begin{equation*}
+    k_n \Def \frac{n\pi}{L}
+\end{equation*}
+Allora si ha:
+\begin{equation*}
+    X(x) = A ( e^{-k_nx} - e^{-k_nx} ) \sim \sin(k_nx)
+\end{equation*}
+Dove si vede sempre di più la necessità di costruire un'algebra infinito dimensionale data da queste equazioni alle derivate parziali. Cerchiamo ora la parte temporale di tale equazione:
+\begin{equation*}
+    T'' = c v^2 T \longrightarrow
+    T'' + \frac{n^2\pi^2}{L^2} v^2 T = 0
+\end{equation*}
+Dove definiamo $\omega_n$ come:
+\begin{equation*}
+    \omega_n=k_nv
+\end{equation*}
+Per cui:
+\begin{equation*}
+    T'' + \omega^2T = 0
+\end{equation*}
+Di cui la soluzione generale è ovviamente nota (come prima) dall'analisi:
+\begin{equation*}
+    T(t) = A' e^{i\omega_n t} + B' e^{-i\omega_n t} =
+    E \cos(\omega_n t + \delta)
+\end{equation*}
+Dove abbiamo racchiuso le due funzioni oscillanti in una sola, ponendo ampiezza $E$ e la fase $\delta$, per cui in sostanza la soluzione dell'equazione iniziale sarà:
+\begin{equation}
+    u(x,t) \sim \sin(k_n x) \cos(w_n t + \delta)
+\end{equation}
+Queste soluzioni in cui tempo e spazio sono fattorizzati nella soluzione prendono il nome di \textit{onde stazionarie}, dove chiaramente per linearità una combinazione di soluzioni sarà essa stessa soluzione.
+
+
+\section{Sviluppi in serie di Fourier}
+
+Le \textbf{serie di Fourier} sono l'esempio più calzante di come si necessiti di spazi infinito dimensionali avendo infiniti termini ed essendo in buona approssimazione l'equivalente della scomposizione funzionale su una base di funzioni. Si ricorda che lo sviluppo in serie di Fourier è possibile per funzioni $f(x)$ definite e generalmente continue su intervallo $[-L,L]$ e derivata prima generalmente continua nello stesso intervallo, dove per generalmente continua si intende che può avere un numero finito di discontinuità di cui esistono comunque e sono finiti i limiti destro e sinistro della funzione. Di conseguenza la funzione $f(x)$ è integrabile e ha sviluppo in serie di Fourier associato:
+\begin{equation}
+    \label{serie:Fourier}
+    \alpha_0 +
+    \sum_{n=1}^{+\infty} \alpha_n\cos \Bigl( \frac{n\pi}{L}x \Bigr) +
+    \sum_{n=1}^{+\infty} \beta_n\sin \Bigl( \frac{n\pi}{L}x \Bigr)
+\end{equation}
+Dove i coefficienti sono definiti come:
+\begin{equation}
+    \label{coef:Fourier}
+    \begin{cases}
+        \alpha_0 = \frac{1}{2L} \int_{-L}^{L} f(x)dx \\
+        \alpha_n = \frac{1}{L} \int_{-L}^{L} f(x) \cos \Bigl( \frac{n\pi}{L}x \Bigr) dx \\
+        \beta_n = \frac{1}{L} \int_{-L}^{L} f(x) \sin \Bigl( \frac{n\pi}{L}x \Bigr) dx
+    \end{cases}
+\end{equation}
+Questo sviluppo gode delle seguenti proprietà:
+\begin{itemize}
+    \item Se $f$ è continua con derivata generalmente continua, e se $f(L)=f(-L)$, allora la serie converge uniformemente a $f(x)$
+    \item Se $f$ è generalmente continua, allora la serie converge puntualmente a $f(x)$ nei punti di continuità e converge puntualmente alla media $\frac{f(x_0^+)+f(x_0^-)}{2}$ nei punti di discontinuità.
+\end{itemize}
+Vediamo l'infinità dimensionale dello sviluppo, che ricorda in questa forma la scomposizione di un vettore su una base dello spazio, emerge quindi una struttura vettoriale infinito dimensionale.
+
+\par\noindent\rule[1pt]{\textwidth}{0.8pt}
+
+\begin{exmp}
+    \begin{equation*}
+        f(x) =
+        \begin{cases}
+            -1 & -\pi < x < 0 \\
+            1 & 0 < x < \pi
+        \end{cases}
+    \end{equation*}
+\end{exmp}
+Che possiamo rappresentare graficamente come:
+
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+    \begin{axis}[
+    x=1.0cm,y=1.0cm,
+    axis lines=middle,
+    xmin=-3.7,
+    xmax=3.7,
+    ymin=-2.4,
+    ymax=2.4,
+    xtick={-3.5,-3.0,...,3.5},
+    ytick={-2.0,-1.5,...,2.0},]
+    \clip(-3.5,-2.1) rectangle (3.5,2.1);
+    \draw [line width=2.pt] (0.,1.)-- (3.141592653589793,1.);
+    \draw [line width=2.pt] (-3.141592653589793,-1.)-- (0.,-1.);
+    \end{axis}
+\end{tikzpicture}
+
+Proviamo a calcolare i vari coefficienti dello sviluppo della serie di Fourier, ricordando le loro definizioni \eqref{coef:Fourier}:
+\begin{equation*}
+    \begin{cases}
+        \alpha_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x)dx = 0 \\
+        \alpha_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \cos \Bigl( \frac{n\pi}{\pi}x \Bigr) dx = 0 \\
+        \beta_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \sin \Bigl( \frac{n\pi}{\pi}x \Bigr) dx
+    \end{cases}
+\end{equation*}
+Dove i primi due termini dello sviluppo si annullano essendo il caso di funzione dispari, sostituendo la funzione con il suo valore effettivo tra $0$ e $\pi$, ricordando inoltre che il prodotto di due funzioni dispari come $f(x)$ e $\sin$ da una funzione pari, possiamo riscrivere $\beta_n$ come:
+\begin{equation*}
+    \beta_n = \frac{2}{\pi} \int_{0}^{\pi} \sin(nx)dx =
+    \frac{2}{\pi} \frac{1}{n} \bigl[ -\cos(nx) \bigr] \bigg|_0^{\pi} =
+    \frac{2}{n\pi} \bigl[ 1 - \cos(n\pi) \bigr] =
+    \frac{2}{n\pi} (1-(-1)^n)
+\end{equation*}
+In definitiva la serie di Fourier di questa funzione sarà:
+\begin{equation*}
+    f(x) = \sum_{i=1}^{n} \frac{2}{n\pi} (1-(-1)^n) \sin(nx)
+\end{equation*}
+
+\par\noindent\rule[1pt]{\textwidth}{0.8pt}
+
+Una considerazione possibile è la somiglianza con una decomposizione su un set di autofunzioni come visto precedentemente con gli autovettori. Consideriamo il set di funzioni:
+\begin{equation}
+    \Bigl\{ 1, \cos\Bigr( \frac{kn\pi}{L} \Bigl), \sin\Bigr( \frac{kn\pi}{L} \Bigl) \Bigr\}
+\end{equation}
+Le quali sono effettivamente le autofunzioni dell'operatore derivata seconda, che a seconda delle condizioni al contorno possono essere seni e coseni. Supponiamo di prendere l'integrale tra $[-L,L]$:
+\begin{equation*}
+    \int_{-L}^{L} \cos\Bigr( \frac{n\pi x}{L} \Bigl) \cos\Bigr( \frac{m\pi x}{L} \Bigl) dx \qquad
+    n, \, m \in \mathbb{N}
+\end{equation*}
+Il quale si sviluppa come segue:
+\begin{equation*}
+    \frac{1}{4} \int_{-L}^{L} \bigl( e^{\frac{in\pi}{L}x} + e^{-\frac{in\pi}{L}x} \bigr) \bigl( e^{\frac{im\pi}{L}x} + e^{-\frac{im\pi}{L}x} \bigr)
+\end{equation*}
+Il quale è essenzialmente un integrale quadruplo, il quale porta a pensare a un certo concetto di oretogonalità a patto che si sia definito un prodotto scalare, il quale risulta nell'integrale del prodotto di funzioni. Calcoliamo questi integrali uno ad uno, il primo:
+\begin{equation*}
+    \int_{-L}^{L} e^{\frac{i\pi x}{L}(n+m)} =
+    \frac{1}{\frac{i\pi}{L}(n+m)} \Bigl( e^{i\pi(n+m)} - e^{-i\pi(n+m)} \Bigr) =
+    \frac{1}{\frac{i\pi}{L}(n+m)} (2i) \sin((n+m)\pi) = 0
+\end{equation*}
+Dove il tutto si annulla poiché risulta il seno di un numero naturale di volte $\pi$.

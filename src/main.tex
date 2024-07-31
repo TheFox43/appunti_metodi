@@ -1,0 +1,82 @@
+\documentclass[a4paper,twoside,openany,notitlepage]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+\geometry{a4paper,top=3cm,bottom=3cm,left=2.5cm,right=2.5cm,%
+	heightrounded,bindingoffset=5mm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption} %per inserire descrizione immagini
+%\usepackage{sidecap} %per inserire descrizioni laterali alle immagini
+\usepackage{wrapfig} %per inserire immagini a lato pagina, wrappando il testo intorno
+\usepackage{graphicx} %impaginazione
+\usepackage{blindtext} %boh
+\usepackage{isotope} %scrittura isotopi
+\usepackage{url} %scrittura di link
+\usepackage{hyperref} %collegamenti ipertestuali e link web
+\usepackage{pgfplots} %per fare i plot da codice
+\usepackage{tikz} %pacchetto per scrivere grafici e plot
+
+%Inclusioni finali e settaggio per plot da codice
+\usetikzlibrary{arrows} %serve per le frecce e i vettori
+\pgfplotsset{compat=1.15} %versione compatibilità del compiler credo
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1.} %colore default di geogebra per i punti
+
+%Settaggio comandi grafici
+%\renewcommand{\caption*}[1]{\begin{center}{\caption*{#1}}}%inserimento testo centrato sotto immagini
+\captionsetup{justification=centering}
+
+%Definizione comando email e settaggio del pacchetto hyperref
+\newcommand{\mail}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
+\hypersetup{hidelinks}
+
+%Definizione comando per notazione vettoriale e simbolo definizione
+\newcommand{\Def}{\overset{\mathit{def}}{=}}
+\renewcommand{\vec}{\boldsymbol}
+
+\theoremstyle{definition}
+\newtheorem{definizione}{Definizione}
+\newtheorem*{definizionenn}{Definizione}
+\newtheorem*{principio}{Principio}
+\newtheorem*{postulato}{Postulato}
+\newtheorem*{exmp}{Esempio}
+\newtheorem{exrc}{Esercizio}
+\newtheorem{sol}{Soluzione}
+
+\theoremstyle{plain}
+\newtheorem{teorema}{Teorema}
+\newtheorem*{dimostrazione}{Dimostrazione}
+\newtheorem*{teoremann}{Teorema}
+\newtheorem*{lemma}{Lemma}
+\newtheorem*{proprietà}{Si trova che}
+
+\begin{document}
+
+\frontmatter
+\author{Volpe Francesco}
+\title{Appunti e formulario di Metodi}
+%\date{}
+\maketitle
+
+\pagestyle{plain}
+\tableofcontents
+
+\mainmatter
+
+\chapter*{Prefazione}
+Le dispense qua riportate sono frutto delle videolezioni del corso di Istituti di metodi matematici per la Fisica dell'anno accademico 2019-2020, presso la facoltà di Fisica dell'Università degli studi di Ferrara. Il corso è basato essenzialmente sugli appunti presi e viene integrato ove necessario con il libro di testo "Metodi matematici della Fisica" di G. Cicogna, Springer 2008.
+
+\part{Analisi complessa}
+
+\input{analisi_complessa.tex}
+
+\part{Spazi di Hilbert}
+
+\input{spazi_dim_finita.tex}
+
+\input{spazi_hilbert.tex}
+
+\end{document}

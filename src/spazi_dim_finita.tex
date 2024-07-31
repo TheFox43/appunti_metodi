@@ -1,0 +1,493 @@
+\chapter{Algebra lineare complessa a dimensione finita}
+
+
+\section{Introduzione e definizioni generali}
+
+Qui faremo un richiamo di algebra lineare, in particolare tratteremo spazi vettoriali a dimensione finita e delle loro proprietà di linearità. Successivamente, come vedremo in quantistica, andremo a sostituire questi spazi con altri di dimensione infinita, i cui vettori spaziali diventeranno vettori descriventi lo stato del sistema fisico in analisi. Iniziamo col richiamare che uno spazio vettoriale $V$ è composto da elementi detti \textit{vettori}, sui quali sono possibili le operazioni di somma e prodotto vettoriale che rispettano una serie di proprietà:
+\begin{itemize}
+    \item Somma, $\forall \vec{x},\vec{y} \in V: \vec{x}+\vec{y} \in V$:
+        \begin{itemize}
+            \item $\vec{x} + \vec{y} = \vec{y} + \vec{x}$
+            \item $\vec{x}+(\vec{y}+\vec{z}) = (\vec{x}+\vec{y})+\vec{z}$
+            \item $\exists \, \text{elemento neutro detto} \, \vec{0_V}: \, \vec{0_V} + \vec{x} = \vec{x}$ 
+            \item $\exists \, \text{elemento opposto} \, -\vec{x}: \, -\vec{x}+\vec{x} = \vec{0_V}$
+        \end{itemize}
+    \item Prodotto per uno scalare, $\forall \vec{x} \in V \land \forall \lambda \in \mathbb{C}: \lambda \vec{x} \in \mathbb{V}$, dati $\alpha, \beta \in \mathbb{C}$:
+        \begin{itemize}
+            \item $(\alpha \beta) \vec{X} = \alpha (\beta \vec{X})$
+            \item $(\alpha+\beta)\vec{x} = \alpha\vec{x} + \beta\vec{x}$
+            \item $\alpha(\vec{x}+\vec{y}) = \alpha\vec{x} + \alpha\vec{y}$
+            \item $0 \vec{x} = \vec{0_V}$
+        \end{itemize}
+\end{itemize}
+Definiamo $n$ vettori come \textit{linearmente indipendenti} $\vec{v}^1,\dots,\vec{v}^n \in \mathbb{V}$ se si ha:
+\begin{equation}
+    \sum_{i=1}^{n} a_i \vec{v}^i = \vec{0_V} \Longleftrightarrow a_i=0
+\end{equation}
+Dove abbiamo introdotto la convenzione per cui utilizziamo la notazione a indici alti per indicare un vettore specifico di un set di vettori, in questo caso $\vec{v}^i$, mentre un set di scalari, in questo caso di coefficienti moltiplicativi di una combinazione lineare le indicheremo con gli indici bassi, come è stato per $a_i$. Nel caso, da qui in avanti si continuerà ad adoperare la soluzione in grassetto per indicare i vettori qualora possibile, a meno di errori di trascrizione.
+
+Definiamo la dimensione di uno spazio finito dimensionale come il numero massimo di vettori linearmente indipendenti che si possono trovare al suo interno. Inoltre, un set di $n$ vettori linearmente indipendenti appertenenti ad uno spazio $\mathbb{V}$ costituiscono una base per quest'ultimo, ossia è possibile scomporre qualsiasi vettore dello spazio come risultato di combinazione lineare di questi vettori di base, a cui ad ognuno corrisponderà una componente scalare:
+\begin{equation*}
+    \forall \vec{x} \in \mathbb{V} \, \exists a_1,\dots,a_n \in \mathbb{C}: \, \vec{x}=\sum_{i=1}^{n} a_i \vec{v}^i
+\end{equation*}
+Chiaramente vale anche il ragionamento inverso, per cui data una n-upla di coefficienti scalari, esiste e sarà unico il vettore che rispetto ad una determinata base sia scomponibili tramite quei coefficienti scalari:
+\begin{equation*}
+    \forall a_1,\dots,a_n \in \mathbb{C} \, \exists \vec{x} \in \mathbb{V}: \, \vec{x}=\sum_{i=1}^{n} a_i \vec{v}^i
+\end{equation*}
+In questo caso si dice che lo spazio vettoriale $\mathbb{V}$ è isomorfo a $\mathbb{C}^n$, ossia impone una corrispondenza biunivoca tra lo spazio vettoriale e quello delle n-uple di numeri complessi, questa relazione vedremo che si conserva in alcuni casi anche quando studieremo l'estensione a spazi di dimensione infinita.
+
+Altra operazione importantissima che va a definire lo spazio vettoriale $\mathbb{V}$ che abbiamo trattato fino ad ora è il prodotto scalare tra vettori, il quale viene definito come segue:
+\begin{equation}
+    \vec{x},\vec{y} \in \mathbb{V}: \, (\vec{x},\vec{y}) \in \mathbb{C}
+\end{equation}
+Il quale gode per definizione di prodotto scalare delle seguenti proprietà:
+\begin{itemize}
+    \item $(\vec{x},\vec{y})* = (\vec{y},\vec{x})$
+    \item $(\vec{x},\lambda \vec{y}) = \lambda(\vec{x},\vec{y})$
+    \item $(\lambda\vec{x},\vec{y}) = \lambda^{*}(\vec{x},\vec{y})$
+    \item $(\vec{x},\vec{y}+\vec{z}) = (\vec{x},\vec{y}) + (\vec{x},\vec{z})$
+\end{itemize}
+In particolare, in base alla seconda e terza proprietà in ordine di elenco del prodotto scalare, data una base $\vec{v}^i$ dello spazio, si ottiene:
+\begin{equation*}
+    (\vec{y},\vec{x}) =
+    \sum_{i=1}^{n} \sum_{j=1}^{n} y_{i}^{*}x_j (\vec{v}^i,\vec{v^j}) =
+    \sum_{i=1}^{n} y_{i}^{*}x_i
+\end{equation*}
+Introduciamo, inducendolo dal prodotto scalare, il concetto di \textit{norma} si un vettore:
+\begin{equation}
+    \Vert \vec{x} \Vert \Def \sqrt{(\vec{x},\vec{x})}
+\end{equation}
+In questo caso il prodotto scalare $(\vec{x},\vec{x})$ da un numero reale per la prima proprietà. Come vedremo più avanti, il concetto di norma si estende ben oltre a quello indotto dal prodotto scalare dello spazio vettoriale, ma adesso analizzeremo questa, la quale ha questa applicazione nel caso di prodotto vettore-scalare:
+\begin{equation*}
+    \Vert \lambda\vec{x} \Vert = \vert\lambda\vert \Vert\vec{x}\Vert \qquad
+    \lambda\in\mathbb{C}, \, \vec{x}\in\mathbb{V}
+\end{equation*}
+In cui si dice che un vettore è \textit{normalizzato} se ha norma unitaria: $\Vert\vec{x}\Vert=1$.
+
+Avendo introdotto questi concetti possiamo ora definire due vettori \textit{ortogonali} se essi:
+\begin{equation}
+    (\vec{x},\vec{y})=0 \qquad \vec{x},\vec{y} \in \mathbb{V}
+\end{equation}
+Unendolo al concetto di norma, si ha invece un set di vettori $\vec{v}^i$ detti \textit{ortonormali} se:
+\begin{equation}
+    (\vec{v}^i,\vec{v^j})=\delta_{ij}
+\end{equation}
+Dove abbiamo introdotto la notazione della \textit{delta di Kronecker}:
+\begin{equation}
+    \label{def:delta_Kronecker}
+    \delta_{ij}\Def
+    \begin{cases}
+        1, & \text{se } i=j \\
+        0, & \text{se } i\neq j
+    \end{cases}
+\end{equation}
+Chiaramente, un set $\vec{e}^i$ di vettori ortonormali, essendo ortogonali, sono linearmente indipendenti e costituiscono quindi una base dello spazio $\mathbb{V}$, non faremo la dimostrazione. In base a quanto definito, si vede come un vettore $\vec{x}\in\mathbb{V}$ può essere scomposto e rappresentato in funzione di una base dello spazio $\mathbb{V}$, le cui componenti le andremo a indicizzare come $x_i$:
+\begin{equation*}
+    x_i = (\vec{e}^i,\vec{x}) \longrightarrow
+    \vec{x} = \sum_{i=1}^{n} x_i \vec{e}^i =
+    \sum_{i=1}^{n} (\vec{e}^i,\vec{x}) \vec{e}^i
+\end{equation*}
+Diamo ora un esempio di base ortonormale tramite la cosiddetta \textit{base canonica}:
+\begin{equation*}
+    \begin{cases}
+        \vec{e}^1 &= (1,0,0,\dots,0)\\
+        \vec{e}^2 &= (0,1,0,\dots,0)\\
+        \vdots \\
+        \vec{e}^n &= (0,0,0,\dots,1)
+    \end{cases}
+\end{equation*}
+
+
+\section{Operatori Lineari}
+
+Supponiamo di avere $T:\mathbb{V} \longrightarrow \mathbb{V'}$, dove $T$ è un'applicazione che associa ogni elemento di $\mathbb{V}$, spazio vettoriale n-dimensionale, a un elemento di $\mathbb{V'}$, spazio vettoriale m-dimensionale. In ambito infinito dimensionale questa associazione di ogni elemento tra spazi a dimensione diversa sarà data per scontata. Si dice lineare questo operatore perchè include proprietà di linearità:
+\begin{equation}
+    T(\alpha\vec{x}+\beta\vec{y}) = \alpha T(\vec{x}) + \beta T(\vec{y}) \qquad
+    \alpha, \, \beta \in \mathbb{C}, \, \vec{x},\vec{y} \in \mathbb{V}
+\end{equation}
+Vediamo ora come si comporta, dato $\vec{x}\in\mathbb{V}$ e $\vec{x'}\in\mathbb{V'}$, $T$ operatore lineare, ${\vec{e}^i}$ base di $\mathbb{V}$ e ${\vec{{e'}}^i}$ base di $\mathbb{V'}$, si ha:
+\begin{equation*}
+    T(\vec{x})=\vec{x'}
+\end{equation*}
+Ma potendo decomporre i vettore sulle basi dei relativi spazi:
+\begin{equation*}
+    \vec{x}=\sum_{i=1}^{n} x_i \vec{e}^i
+\end{equation*}
+\begin{equation*}
+    \vec{x'}=\sum_{J=1}^{m} {x'}_J \vec{{e'}^J}
+\end{equation*}
+Possiamo allora riscrivere l'operatore come:
+\begin{equation*}
+    T\Bigl(\sum_{i=1}^{n} x_i \vec{e}^i\Bigr) = \sum_{j=1}^{m} {x'}_j \vec{{e'}^j}
+\end{equation*}
+Ma la linearità dell'operatore mi permette di scrivere quanto segue:
+\begin{equation*}
+    x_i\Bigl(\sum_{i=1}^{n} T \vec{e}^i\Bigr) = \sum_{j=1}^{m} {x'}_j \vec{{e'}^j}
+\end{equation*}
+La cosa interessante sta ora nel trovare la forma matriciale dell'operatore $T$ tramite lo studio del suo effetto sui vettori di base. Ci si aspetta che i vettori base trasformati siano anch'essi una combinazione lineare della base $\vec{e'}$ di $\mathbb{V'}$. Posso ossia scrivere che:
+\begin{equation*}
+    T\vec{e}^i = \sum_{j=1}^{m} \alpha_{ij} \vec{{e'}^j} \qquad \alpha_{ij}\in\mathbb{C}
+\end{equation*}
+Dove quindi le componenti sono state denotate come $\alpha_{ij}$, per linearità possiamo riscrivere l'applicazione di $T$ come:
+\begin{equation*}
+    \sum_{i=1}^{n} x_i T\vec{e}^i =
+    \sum_{i=1}^{n} x_i \sum_{j=1}^{m} \alpha_{ij} \vec{{e'}^j} =
+    \sum_{j=1}^{m} \vec{{e'}^j} \Bigl( \sum_{i=1}^{n} x_i\alpha_{ij} - {x'}_j \Bigr) =
+    \vec{0_{V'}}
+\end{equation*}
+Ma allora $\sum_{i=1}^{n} x_i\alpha_{ij}={x'}_j \, \forall j=1,\dots,m$, questo ci permette di definire quindi l'azione dell'operatore lineare $T$ tramite i coefficienti$\alpha_{ij}$:
+\begin{equation}
+    {x'}_j = \sum_{i=1}^{n} \alpha_{ij} x_i =
+    \sum_{i=1}^{n} T_{ji} x_i \Longrightarrow T_{ji} = \alpha_{ij}
+\end{equation}
+Dove la matrice $T_{ji}$ è una matrice $m \times n$ rappresentante $T$, per cui conoscere i coefficienti $\alpha_{ij}$ coincide con la conoscenza dell'operatore $T$, con cui si può successivamente fare il classico prodotto riga per colonna:
+\begin{equation*}
+    \vec{x'} =
+    \begin{bmatrix}
+        {x'}_1 \\
+        \vdots \\
+        {x'}_m
+    \end{bmatrix} =
+    T_{ji} \begin{bmatrix}
+        x_1 \\
+        \vdots \\
+        x_n
+    \end{bmatrix} \qquad
+    T_{ji} = (\vec{{e'}^j},T\vec{e}^i)
+\end{equation*}
+Questo ci permette appunto di calcolare la rappresentazione matriciale in spazi finito dimensionali ma vedremo sarà altrettanto comodo in spazi infinito dimensionali, dove l'abbiamo costruita come proiezione dei vettori base dello spazio di dominio trasformati dall'operatore $T$ sui vettori di base dello spazio immagine.
+
+Concentriamoci ora sugli operatori che "mappano" uno spazio, ossia operatori che mandano vettori di uno spazio in vettori dello stesso spazio $T:\mathbb{V}\longrightarrow\mathbb{V}$. Prendiamo due operatori $T_1$ e $T_2$ del tipo appena descritto sullo spazio $\mathbb{V}$:
+\begin{equation*}
+    \mathbb{V} \xrightarrow{T_1} \mathbb{V} \xrightarrow{T_2} \mathbb{V}
+\end{equation*}
+Dove possiamo combinare le due trasformazioni, essendo applicate sullo stesso spazio sarà possibile tramite il prodotto matriciale (non commutativo):
+\begin{equation*}
+    T=T_2T_1
+\end{equation*}
+Di fatti:
+\begin{equation*}
+    \vec{x''} = T_2\vec{x} = T_2T_1\vec{x}
+\end{equation*}
+
+Si dice operatore \textbf{aggiunto}, o anche \textbf{hermitiano coniugato}, la matrice $T^{\dagger}$ trasposta e complesso coniugata della matrice associata all'operatore $T$:
+\begin{equation}
+    T_{ij}^{\dagger} = T_{ji}^{*}
+\end{equation}
+La quale ovviamente gode della proprietà $(T^{\dagger})^{\dagger}=T$. Vediamo ora che proprietà ha rispetto al prodotto scalare, ad esempio:
+\begin{equation*}
+    (\vec{y},T\vec{x}) =
+    \sum_{i=1}^{n} {y}_i^{*} (T\vec{x})_i =
+    \sum_{i=1}^{n} \sum_{j=1}^{n} {y}_i^{*} T_{ij} x_j =
+    \sum_{i=1}^{n} \sum_{j=1}^{n} {y}_i^{*} \bigl( T_{ji}^{*} \bigr)^{\dagger} x_j =
+    (T^{\dagger}\vec{y},\vec{x})
+\end{equation*}
+Questa risulterà molto importante successivamente. Quando $T=T^{\dagger}$ l'operatore di dice \textbf{hermitiano} o \textbf{autoaggiunto}. Nel caso in cui gli elementi della rappresentazione matriciale dell'operatore siano reali, allora $T^{\dagger}=T^{T}$, in tal caso un operatore autoaggiunto è anche \textit{simmetrico}. Gli operatori che saranno utili in fisica, oltre che gli autoaggiunti, i quali in quantistica ad esempio saranno gli osservabili fisici, saranno gli operatori \textbf{unitari} così definiti:
+\begin{equation}
+    (M\vec{x},M\vec{y}) = (\vec{x},\vec{y}) \qquad \forall \vec{x},\vec{y} \in \mathbb{V}
+\end{equation}
+Ossia conservano i prodotti scalari e, nel caso da questi derivi il concetto di norma adottato, anche quello di norma. Portando all'altro membro del prodotto la matrice $M$:
+\begin{equation*}
+    (\vec{x},M^{\dagger}M\vec{y}) = (\vec{x},\vec{y})
+\end{equation*}
+Il che significa che:
+\begin{equation}
+    M^{\dagger}M = MM^{\dagger} = \mathbb{I}
+\end{equation}
+Dove abbiamo usato la commutazione in quanto la dimostrazione è analoga e banale anche a termini invertiti. Ma poichè $M$ unitario conserva i prodotti scalari, allora essa trasforma basi ortonormali in altre basi ortonormali, ambito in cui sono principalmente adoperate, dove si ricorda che in algebra reale si aveva la stessa possibilità con le matrici ortogonali $MM^{T}=\mathbb{I}$. Si nota inoltre che $det(M^{\dagger}M)=1$ necessariamente, per cui si deduce che $detM=\pm 1$ e che essa sia quindi invertibile:
+\begin{equation}
+    M^{-1} = M^{\dagger}
+\end{equation}
+Vediamo ora il procedimento di cambiamento di base in combinazione con un operatore lineare che mappa lo spazio $\mathbb{V}$, supponiamo dunque di avere un operatore unitario $M$ tale che $\vec{x'}=M\vec{x}$ e $\vec{y'}=M\vec{y}$, dove $\vec{y}=T\vec{x}$, avremo uno schema del tipo:
+
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+    \clip(2,-0.5) rectangle (5.5,5.5);
+    \draw [->,line width=1.pt] (3.3,5.) -- (4.7,5.);
+    \draw [->,line width=1.pt] (3.,4.7) -- (3.,3.3);
+    \draw [->,line width=1.pt] (5.,4.7) -- (5.,3.3);
+    \draw [->,line width=1.pt] (3.3,3.) -- (4.7,3.);
+    \begin{scriptsize}
+    \draw [fill=ududff] (5.,5.) circle (2.5pt);
+    \draw[color=ududff] (5.182321038881593,5.331983932497143) node {$x'$};
+    \draw [fill=ududff] (3.,3.) circle (2.5pt);
+    \draw[color=ududff] (3.132621437178054,3.337186998696375) node {$y$};
+    \draw [fill=ududff] (5.,3.) circle (2.5pt);
+    \draw[color=ududff] (5.182321038881593,3.337186998696375) node {$y'$};
+    \draw [fill=ududff] (3.,5.) circle (2.5pt);
+    \draw[color=ududff] (3.132621437178054,5.331983932497143) node {$x$};
+    \draw[color=black] (4.047665902224277,5.24047948599252) node {$M$};
+    \draw[color=black] (3.132621437178054,4.160727017237976) node {$T$};
+    \draw[color=black] (5.182321038881593,4.160727017237976) node {$T'$};
+    \draw[color=black] (4.047665902224277,3.2456825521917523) node {$M$};
+    \end{scriptsize}
+\end{tikzpicture}
+
+Allora possiamo scrivere genericamente, alla ricerca di $T'$:
+\begin{equation*}
+    \begin{cases}
+        \vec{y'}=T\vec{x'} \\
+        \vec{y}=T\vec{x}
+    \end{cases} \longrightarrow
+    \begin{cases}
+        M^{\dagger} \vec{y'} = T M^{\dagger} \vec{x'} \\
+        M^{\dagger} T' \vec{x'} = T M^{\dagger} \vec{x'}
+    \end{cases} \Longrightarrow
+    M^{\dagger} T' = T M^{\dagger}
+\end{equation*}
+Da cui si deduce infine che $T'$ dovrà avere infine la seguente forma rispetto a se stesso nella prima base $T$:
+\begin{equation}
+    T' = M T M^{\dagger}
+\end{equation}
+Questo risulta utile nel momento in cui si necessita di diagonalizzare degli operatori, processo che avviene tramite cambiamento di base.
+
+
+\section{Autovalori e autovettori}
+
+Introduciamo la cosiddetta \textbf{equazione secolare};
+\begin{equation}
+    T\vec{x} = \lambda\vec{x} \qquad
+    \lambda \in \mathbb{C}, \, \vec{x} \in \mathbb{V}, \, \vec{x}\neq\vec{0_V}
+\end{equation}
+Detta anche equazione agli autovalori, nel caso sia soddisfatta da alcuni valori, essi vengono chiamati \textbf{autovalori} $\lambda$ dell'operatore $T$ con relativo \textbf{autovettore} $\vec{x}$. Si può avere il caso di un autovalore \textbf{degenere} nel caso in cui allo stesso autovalore $\lambda$ corrispondono diversi autovettori $\vec{x}^i$. In generale, autovettori relativi allo stesso autovalore costituiscono \textbf{autospazi} vettoriali, di dimensione unitaria nel caso l'autovalore non sia degenere, per cui vale che multipli $\alpha\vec{x}$ con $\alpha\in\mathbb{C}$ sono anch'essi ancora autovettori dello stesso autovalore. Per risolvere l'equazione secolare si porta tutto a primo membro trovando un sistema di $n$ equazioni a $n$ incognite:
+\begin{equation}
+    \bigl( T-\lambda\mathbb{I} \bigr) = \vec{0_V}
+\end{equation}
+Questo risulta possibile secondo il rigore matematico solo supponendo che l'operatore appena descritto sia singolare, ossia che $det \bigl( T-\lambda\mathbb{I} \bigr) = 0$, ciò garantisce al tempo stesso di avere soluzioni non banali per il \textit{teorema fondamentla dell'algebra}. Questa equazione equivale alla ricerca del nucleo di questo operatore, la quale si traduce in un'equazione algebrica di grado $n$ nella variabile $\lambda$. Le soluzioni $\lambda_i$ hanno due molteplicità: la \textit{molteplicità algebrica} $m_a{\lambda}$, ossia il numero di volte che quell'autovalore soddisfa l'equazione, la \textit{molteplicità geometrica} $m_g{\lambda}$, data dal numero di autovettori associati al medesimo autovalore. Non è chiaramente detto che il set di autovettori relativi allo stesso autovalore siano linearmente indipendenti, per cui la molteplicità geometrica, ossia essenzialmente la dimensione dell'autospazio $E(\lambda)$, per cui generalmente si ha:
+\begin{equation}
+    m_g{\lambda} \leq m_a{\lambda}
+\end{equation}
+Prendiamo un operatore hermitiano (o autoaggiunto), esso gode di alcune proprietà rispetto all'equazione agli autovalori:
+\begin{itemize}
+    \item Autovalori reali;
+    \item Autovettori relativi ad autovalori diversi sono ortogonali;
+    \item Nel caso ci siano $n$ autovalori e quindi $n$ autovettori linearmente indipendenti, essi costituiscono una base per lo spazio $V$ ove è applicato l'operatore, utile in futuro in meccanica quantistica per quanto riguarda le decomposizioni spettrali;
+    \item Avendo un autovalore degenere, il quale ossia ammette più autovettori associati ad esso, essi possono essere linearmente indipendenti, ma niente garantisce essi siano anche ortogonali tra loro, è possibile però renderli tali tramite il metodo di Graham-Schmidt;
+    \item Esiste un operatore unitario tale da attuare un cambiamento di base in funzione della quale la matrice associata all'operatore $T$ sia diagonale, dove si dice che l'operatore è diagonalizzabile, grazie al fatto che il numero di autovettori indipendenti sia proprio $n$.
+\end{itemize}
+Questo teorema è generalizzabile agli operatori \textbf{normali}, definiti come commutanti con il proprio aggiunto:
+\begin{equation}
+    \label{def:op-normale}
+    M^{\dagger}M = MM^{\dagger}
+\end{equation}
+Dove tutti gli operatori normali sono diagonalizzabili, salteremo la dimostrazione. Affrontiamo ora un nuovo teorema, trattandolo senza eccessiva formalità. Siano $T$ e $S$ operatori normali, dunque diagonalizzabili e possibilmente autoaggiunti, si trova che se $T$ e $S$ commutano:
+\begin{equation*}
+    [T,S] = TS - ST = 0
+\end{equation*}
+Allora hanno una base di autovettori in comune, valendo anche il viceversa, ossia che se due operatori normali hanno una base di autovettori in comune, allora essi commutano. Ciò verrà usato pesantemente in meccanica quantistica, dove i due operatori che commutano saranno due osservabili fisiche simultaneamente misurabili.
+
+Supponiamo di avere $vec{x}$ autovettore di $\lambda$ dell'operatore $T$, moltiplicando per $S$ ad ambedue i membri:
+\begin{equation*}
+    ST\vec{x} = \lambda S \vec{x}
+\end{equation*}
+Ma poiché per ipotesi i due operatori commutano:
+\begin{equation*}
+    TS\vec{x} = \lambda S \vec{x} \longrightarrow
+    T u = \lambda u \qquad u\Def S\vec{x}
+\end{equation*}
+La quale è a sua volta equazione secolare agli autovalori per l'operatore $T$, il cui autovettore diventa $S\vec{x}$. Ma se $\lambda$ non è degenere, ossia ha molteplicità algebrica unitaria, allora tutti gli autovettori sono proporzionali a $\vec{x}$, come ad esempio può esserlo $\lambda'\vec{x}$, con $\lambda'\in\mathbb{C}$, da cui:
+\begin{equation*}
+    S\vec{x} = \lambda' \vec{x}
+\end{equation*}
+Ma anche questa è una equazione agli autovalori soddisfatta da $\vec{x}$, per cui quest'ultimo è autovettore anche di $S$ relativamente all'autovalore $\lambda'$. Questi due autovalori non devono per forza coincidere, ma la cosa interessante è che lo stesso set che diagonalizza un operatore diagonalizza anche l'altro. Dimostrabile anche in generale con casi di degenerazione dell'autovalore.
+
+
+\section{Proiettori}
+
+Sia $\mathbb{V}$ spazio vettoriale a dimensione $n$ e $\mathbb{V}_1$ e $\mathbb{V}_2$ sottospazi di $\mathbb{V}$ tali che $\mathbb{V}=\mathbb{V}_1 \oplus \mathbb{V}_2$, ossia $\forall \vec{v} \in\mathbb{V} \exists \vec{v}_1 \in \mathbb{V}_1, \, \exists \vec{v}_2 \in \mathbb{V}_2 \, \vert \, \vec{v} = \vec{v}_1+\vec{v}_2$. Supponiamo ora che $\mathbb{V}_2$ sia il complemento ortogonale di $\mathbb{V}_1$, ovvero che ogni vettore di $\mathbb{V}_2$ è ortogonale a ogni vettore di $\mathbb{V}_1$. Un esempio in $\mathbb{R}^3$ può essere che $\mathbb{V}_2$ sia l'asse $z$ e $\mathbb{V}_1$ gli assi $x$ e $y$, ossia il piano $xy$. Possiamo ora introduttore i \textbf{proiettori} come quegli operatori che scompongono i vettori di $\mathbb{V}$ nelle sue componenti su $\mathbb{V}_1$ e $\mathbb{V}_2$. Siano $P_i: \, \mathbb{V} \longrightarrow \mathbb{V}_i$ i proiettori, essi funzionano come segue:
+\begin{itemize}
+    \item $P_1 \vec{v} = \vec{v}^1 \qquad \vec{v}^1 \in \mathbb{V}_1$
+    \item $P_2 \vec{v} = \vec{v}^2 \qquad \vec{v}^2 \in \mathbb{V}_2$
+\end{itemize}
+Valgono per essi alcune proprietà:
+\begin{itemize}
+    \item $P_1 + P_2 = \mathbb{I}$
+    \item $P_1P_2 = P_2P_1 = \mathbb{0}$
+    \item $P=P^{\dagger}$
+    \item $P^2=P$
+\end{itemize}
+Questi sono utili soprattutto nei casi di operatori $T$ autoaggiunti, i quali tratteremo ora. Si supponga di avere un operatore $T$ autoaggiunto che abbia $k$ autovalori distinti e $n$ autovettori, dove $k\leq n$. Ogni autovalore $\lambda_i$ determina tramite i suoi autovettori un sottospazio vettoriale che chiamiamo $\mathbb{V}_i$ tale che:
+\begin{equation*}
+    \mathbb{V} = \mathbb{V}_1 \oplus \mathbb{V}_2 \oplus \dots \oplus \mathbb{V}_k
+\end{equation*}
+Dove la sommabilità dal punto di vista dimensionale è garantita dal fatto, visto in precedenza, che autovettori relativi ad autovalori diversi sono ortogonali, conseguentemente saranno ortogonali anche i relativi sottospazi l'uno con l'altro. Associo a ogni sottospazio un proiettore $P_i$:
+\begin{equation*}
+    P_1 + P_2 + \dots + P_k = \mathbb{I}
+\end{equation*}
+Dove posso scomporre $\vec{x}\in\mathbb{V}$ come $\vec{x}=\vec{x}^1+\vec{x}^2+\dots+\vec{x}^k$, da cui:
+\begin{equation*}
+    T\vec{x} =
+    T \bigl( \vec{x}^1+\vec{x}^2+\dots+\vec{x}^k \bigr) =
+    T\vec{x}^1 + T\vec{x}^2 + \dots + T\vec{x}^k =
+    \lambda_1\vec{x}^1 + \lambda_2\vec{x}^2 + \dots + \lambda_k\vec{x}^k =
+    \lambda_1 P_1\vec{x} + \lambda_2 P_2\vec{x} + \dots + \lambda_k P_k\vec{x}
+\end{equation*}
+Dove si è ricondotto all'equazione secolare poichè gli $\vec{x}^i$ sono autovettori relativi agli autovalori, mentre il proiettore è stato introdotto per definizione di proiettore e di scomposizione, riscrivendo il tutto in forma breve:
+\begin{equation}
+    T\vec{x} = \Bigl( \sum_{i=1}^{k} \lambda_i P_i \Bigr) \vec{x}
+\end{equation}
+Possiamo da questa riscrivere l'operatore $T$ come:
+\begin{equation}
+    T = \sum_{i=1}^{k} \lambda_i P_i
+\end{equation}
+Questo modo di decomporre gli operatori viene detta \textbf{decomposizione spettrale}, che vedremo più approfonditamente con gli spazi di Hilbert, la quale ci mostra che un operatore è riscrivibile come somma dei propri proiettori moltiplicati ciascuno per il relativo autovalore. Questa decomposizione nel caso di $n$ autovalori distinti corrisponde ad avere un operatore diagonale, nel caso non vi siano $n$ autovalori distinti si ha comunque la diagonalità ma con alcuni elementi ripetuti, tante volte quanto la degenerazione del relativo autovalore.
+\\
+
+\par\noindent\rule[1pt]{\textwidth}{0.8pt}
+
+\begin{exmp}[Operatore diagonalizzabile con autovalori non degeneri]
+    .
+\end{exmp}
+
+\begin{exmp}[Operatore diagonalizzabile con autovalori degeneri]
+    \begin{equation*}
+        A=
+        \begin{bmatrix}
+            0 & 1 & 0 \\
+            1 & 0 & 0 \\
+            0 & 0 & 1
+        \end{bmatrix} \qquad
+        det(A-\lambda\mathbb{I})=0
+    \end{equation*}
+    Da cui si scrive in forma matriciale:
+    \begin{equation*}
+        \begin{bmatrix}
+            -\lambda & 1 & 0 \\
+            1 & -\lambda & 0 \\
+            0 & 0 & 1-\lambda
+        \end{bmatrix} = 0 \longrightarrow
+        (1-\lambda)(\lambda^2-1)=0
+    \end{equation*}
+    Da cui abbiamo due valori: $\lambda=1$ con doppia molteplicità algebrica, $\lambda=-1$ con singola molteplicità algebrica. Da essi cerchiamo gli autovettori:
+    \begin{equation*}
+        \begin{bmatrix}
+            0 & 1 & 0 \\
+            1 & 0 & 0 \\
+            0 & 0 & 1
+        \end{bmatrix}
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} =
+        1
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} \longrightarrow
+        \begin{cases}
+            y=x \\
+            x=y \\
+            z=z
+        \end{cases}
+    \end{equation*}
+    Per cui gli autovettori potrebbero essere della forma:
+    \begin{equation*}
+        \begin{bmatrix}
+            x \\ x \\ 0
+        \end{bmatrix} \sim
+        \begin{bmatrix}
+            1 \\ 1 \\ 0
+        \end{bmatrix},
+        \begin{bmatrix}
+            0 \\ 0 \\ z
+        \end{bmatrix} \sim
+        \begin{bmatrix}
+            0 \\ 0 \\ 1
+        \end{bmatrix}
+    \end{equation*}
+    Questi due esempi numerici sono linearmente indipendenti e appartenenti all'autovalore degenere $\lambda=1$. Risolviamo ora la stessa equazione applicata all'autovalore $\lambda=-1$:
+    \begin{equation*}
+        \begin{bmatrix}
+            0 & 1 & 0 \\
+            1 & 0 & 0 \\
+            0 & 0 & 1
+        \end{bmatrix}
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} =
+        -
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} \longrightarrow
+        \begin{cases}
+            y=-x \\
+            x=-y \\
+            z=-z
+        \end{cases}
+    \end{equation*}
+    Dall'ultima ricaviamo che $z=0$ necessariamente, per cui l'autovettore sarà:
+    \begin{equation*}
+        \begin{bmatrix}
+            x \\ -x \\ 0
+        \end{bmatrix} \sim
+        \begin{bmatrix}
+            1 \\ -1 \\ 0
+        \end{bmatrix}
+    \end{equation*}
+    Da qui si nota come $T$ sia autoaggiunto, essendo che scambiando righe per colonne si ottiene la stessa matrice, ha tre diversi autovettori indipendenti ed è diagonalizzabile. Per provare che sono linearmente indipendenti possiamo metterli in una matrice e calcolando il determinante verificare che esso sia diverso da zero:
+    \begin{equation*}
+        \text{det }
+        \begin{bmatrix}
+            1 & 1 & 0 \\
+            0 & 0 & 1 \\
+            1 & -1 & 0
+        \end{bmatrix} \neq 0
+    \end{equation*}
+    O alternativamente, in questo caso specifico, verificare che essi siano ortogonali tra loro moltiplicandoli scalarmente con il prodotto riga per colonna tra vettori a due a due. Verificato banalmente ciò, essi sono normalizzabili in modo da andare ad ottenere un set ortonormale. Infine, è dimostrabile come la matrice $U$ costituita dai vettori normalizzati sia la matrice unitaria diagonalizzabile del cambiamento di base, da un set ortonormale a un altro.
+\end{exmp}
+
+\begin{exmp}[Operatore non diagonalizzabile]
+    Non diagonalizzabile significa che il numero di autovettori indipendenti è inferiore alla dimensione dello spazio $n$. Prendiamo $A$ che sia:
+    \begin{equation*}
+        A=
+        \begin{bmatrix}
+            1 & 1 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 3
+        \end{bmatrix}
+    \end{equation*}
+    Scrivendo l'equazione secolare si vede immediatamente che si ottengono due autovalori: $\lambda=3$ semplice, $\lambda=1$ doppio. Cerchiamo gli autovettori:
+    \begin{equation*}
+        \begin{bmatrix}
+            1 & 1 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 3
+        \end{bmatrix}
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} =
+        1
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} \longrightarrow
+        \begin{cases}
+            x+y=x \\
+            y=y \\
+            3z=z
+        \end{cases} \Longrightarrow
+        \begin{bmatrix}
+            1 \\ 0 \\ 0
+        \end{bmatrix}
+    \end{equation*}
+    Da cui ho dedotto che debba essere $y=0, \, z=0$, l'unico possibile autovettore relativo a $\lambda=1$ sarà $x$ indeterminato. Questo è un ottimo esempio di come la molteplicità geometrica non corrisponda necessariamente con quella algebrica. Procedendo:
+    \begin{equation*}
+        \begin{bmatrix}
+            1 & 1 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 3
+        \end{bmatrix}
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} =
+        3
+        \begin{bmatrix}
+            x \\ y \\ z
+        \end{bmatrix} \longrightarrow
+        \begin{cases}
+            x+y=3x \\
+            y=3y \\
+            3z=3z
+        \end{cases} \longrightarrow
+        \begin{bmatrix}
+            0 \\ 0 \\ 1
+        \end{bmatrix}
+    \end{equation*}
+    Avendo in tutto due autovettori distintio e indipendenti, $A$ non è diagonalizzabile.
+\end{exmp}

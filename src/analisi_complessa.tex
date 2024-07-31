@@ -1,0 +1,42 @@
+https://www.ge.infn.it/~zanghi/metodi/ZULU13.pdf
+
+http://scienze-como.uninsubria.it/complexcomo/download/mat33.pdf
+
+\chapter{Richiami sui numeri complessi}
+
+Il numero complesso permette di fare la radice di un numero negativo, ma deriva dalla necessita di costruire una struttura di campo nell'ambito delle coppie di numeri reali $\mathbb{R}^2$. Ogni elemento di questo insieme è una coppia ordinata di numeri reali $(x,y)$, ora ci chiediamo se sia possibile costruire un campo su questo insieme, ossia dotarlo di una somma e un prodotto. Affinchè questo accada è necessario anche che le operazione di cui dotiamo l'insieme godano di certe proprietà:
+\begin{itemize}
+    \item $(x,y) + (x',y') = (x+x',y+y')$
+\end{itemize}
+
+Elementi base della matematica che useremo.
+Forme di rappresentazione dei numeri complessi:
+\[
+z=a+ib \quad \mbox{Forma algebrica}
+\]
+\[
+z=cos(\theta) + isen(\theta) \quad \mbox{Forma trigonometrica}
+\]
+\[
+z=\rho e^{i\theta} \quad \mbox{Forma di Eulero}
+\]
+Per ricavare la forma euleriana da quella algebrica, cosa spesso ricorrente e particolarmente utile, usando $\theta\in[0,2\pi]$:
+\[
+\theta:=Arg(z)=
+\begin{cases}
+\frac{\pi}{2}				& \text{se $a=0, \, b>0$} \\
+\frac{3\pi}{2}				& \text{se $a=0, \, b<0$} \\
+\mbox{non definito}			& \text{se $a=0, \, b=0$} \\
+arctan(\frac{b}{a})			& \text{se $a>0, \, b\ge 0$} \\
+arctan(\frac{b}{a})+2\pi	& \text{se $a>0, \, b<0$} \\
+arctan(\frac{b}{a})+\pi		& \text{se $a<0, \, b$ qualsiasi}
+\end{cases}
+\]
+Definiamo le radici n-esime di un numero complesso $z$ nel seguente modo:
+\begin{equation}
+z^n=a, \quad a=|a|e^{i\alpha} \longrightarrow z_k=|a|^{\frac{1}{n}}e^{i(\frac{\alpha + 2k\pi}{n})}, \quad k=0,...,n-1.
+\end{equation}
+Così che nel piano complesso si formi sempre un poligono regolare di $n$ lati incentrato nell'origine, da cui si può dimostrare una proprietà operativa molto comoda:
+\begin{equation}
+\sum_{k=0}^{n-1} z_k=0
+\end{equation}

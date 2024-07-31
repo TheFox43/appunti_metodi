@@ -1,0 +1,1888 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.17)  24 JUL 2024 12:29
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert"
+(/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:1: Undefined control sequence.
+l.1 \chapter
+            {Spazi vettoriali a dimensione infinita}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{S
+              pazi vettoriali a dimensione infinita}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]
+ []
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:4: Undefined control sequence.
+l.4 \section
+            {Introduzione agli spazi infinito-dimensionali}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:4: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \section{I
+              ntroduzione agli spazi infinito-dimensionali}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[]
+ []
+
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:6: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 P
+     rovando a risolvere equazioni differenziali alle derivate parziali, ris...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+LaTeX Font Info:    Trying to load font information for +cmr on input line 6.
+LaTeX Font Info:    No file cmr.fd. on input line 6.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 6.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:6: Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.6 ...te parziali, risulta evidente la necessità
+                                                   di introdurre spazi infin...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 6.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--7
+[]
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 6--7
+\/cmr/m/n/10 ^^Ra
+ []
+
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:8: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 P
+     renderemo ora in considerazione il caso di onde stazionarie. Sia $u$ lo...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+[]
+ []
+
+
+Overfull \hbox (5.72458pt too wide) in paragraph at lines 8--9
+\OML/cmm/m/it/10 u$
+ []
+
+
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 8--9
+\OML/cmm/m/it/10 t$
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 8--9
+\/cmr/m/n/10 ^^Re
+ []
+
+
+Overfull \hbox (5.71527pt too wide) in paragraph at lines 8--9
+\OML/cmm/m/it/10 x$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 8--9
+\/cmr/m/n/10 ^^Ro
+ []
+
+
+Overfull \hbox (27.27318pt too wide) in paragraph at lines 8--9
+\OML/cmm/m/it/10 u\/cmr/m/n/10 (\OML/cmm/m/it/10 x; t\/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (47.27747pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 l'equazione
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (49.35516pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 D'Alembert
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 8--9
+\/cmr/m/n/10 ^^Re 
+ []
+
+
+Overfull \hbox (75.15373pt too wide) detected at line 12
+[][] \OMS/cmsy/m/n/10 ^^@ [][] \/cmr/m/n/10 = 0
+ []
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:14: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing } inserted.
+<inserted text> 
+                }
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+I'm guessing that you meant to end an alignment here.
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.16         \frac
+                  {\partial^2 u}{\partial x^2} - \frac{1}{v^2} \frac{\partia...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 31 strings out of 473584
+ 869 string characters out of 5728328
+ 1926905 words of memory out of 5000000
+ 23021 multiletter control sequences out of 15000+600000
+ 558415 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,8n,32p,613b,91s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+/Users/francescovolpe/Documents/Documenti - Mac mini di Francesco/LaTex_created_doc/appunti_metodi/src/spazi_hilbert.tex:16:  ==> Fatal error occurred, no output PDF file produced!
